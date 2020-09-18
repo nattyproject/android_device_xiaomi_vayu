@@ -131,6 +131,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_RAMDISK)/fstab.qcom \
     $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.qcom
 
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.lights-service.vayu
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti
