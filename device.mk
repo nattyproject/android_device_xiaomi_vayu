@@ -20,3 +20,6 @@ PRODUCT_COPY_FILES += \
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti
+
+# Include vendor
+include vendor/xiaomi/vayu/vayu-vendor.mk

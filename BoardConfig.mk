@@ -101,3 +101,6 @@ BOARD_USES_METADATA_PARTITION := true
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
+
+# Inherit from the proprietary Setup
+-include vendor/xiaomi/vayu/BoardConfigVendor.mk
