@@ -27,6 +27,9 @@ TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a76
 TARGET_BOOTLOADER_BOARD_NAME := msmnile
 TARGET_NO_BOOTLOADER := true
 
+# Camera
+TARGET_USES_QTI_CAMERA_DEVICE := true
+
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := $(DEVICE_PATH)/configs/hidl/framework_compatibility_matrix.xml
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/hidl/manifest.xml
