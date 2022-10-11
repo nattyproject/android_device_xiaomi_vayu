@@ -127,6 +127,10 @@ TARGET_COPY_OUT_VENDOR := vendor
 
 BOARD_USES_METADATA_PARTITION := true
 
+# Libinit
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_vayu
+TARGET_RECOVERY_DEVICE_MODULES := libinit_vayu
+
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
