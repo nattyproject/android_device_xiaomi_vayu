@@ -137,7 +137,8 @@ PRODUCT_COPY_FILES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.vayu
+    android.hardware.biometrics.fingerprint@2.1-service.vayu \
+    libkeymaster_messages.vendor
 
 # Lights
 PRODUCT_PACKAGES += \
